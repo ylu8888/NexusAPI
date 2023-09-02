@@ -9,8 +9,8 @@ const App = () => {
   return (
     <div>
       <nav className="bg-gray-950">
-        <div className="container p-6">
-          <Link to="/"><h2 className="text-white text-4xl font-bold">The Odyssey Museum</h2></Link>
+        <div className="mx-auto p-6">
+          <Link to="/"><h2 className="text-white text-center text-4xl font-bold">The Odyssey Museum</h2></Link>
         </div>
 
       </nav>

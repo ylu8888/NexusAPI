@@ -29,7 +29,7 @@ const CreatePage = () => {
                 image: image
             })
 
-            toast.success(`Save ${response.data.name} successfully`)
+            toast.success(`Saved ${response.data.name} successfully`)
             setIsLoading(false);
             navigate("/")
 

@@ -31,12 +31,31 @@ const HomePage = () => {
 
     return (
         <div>
+     
+        
+      <nav className="bg-gray-950 ">
+        <div className="mx-auto p-8 pt-6 pb-6">
+          <Link to="/"><h2 className="font-bold text-cyan-400 text-center text-4xl font-serif">The Odyssey Museum</h2></Link>
+        </div>
+
+        <div className="p-1">
+        <h2 className="text-sky-400 text-center text-sm font-bold">Powered by NexusAPI</h2> 
+        <p className="text-white text-center text-sm">All antiquities are acquired from NexusAPI and displayed for public viewing. Visitors may create, edit, or delete any artifacts and their descriptions </p>
+        </div>
+
+        <div className="text-center mx-auto pl-14 pr-14 pt-2">
+        <img src="https://www.metmuseum.org/-/media/images/about-the-met/collection-areas/greek-and-roman/greek_roman_marquee_2320x940.jpg?sc_lang=en&h=940&w=2320&la=en&hash=72F4B1C70CA737CE59B046E6737D2DA9" alt="odymuseum" />
+        </div>
+
+      </nav>
+
             <div>
-                <Link to="/create" className="inline-block mt-4 shadow-md bg-gray-900 text-white rounded-sm px-4 py-2 font-bold hover:bg-gray-600 hover:cursor-pointer">
+                <Link to="/create" className="inline-block mt-4 shadow-md bg-gray-700 text-white rounded-sm px-4 py-2 font-bold hover:bg-gray-600 hover:cursor-pointer">
                     Add Artifact
                 </Link>
             </div>
 
+        <section>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-5">
                 {isLoading ? ( //first check if products are loading
                     <div className="text-white text-4x1 mx-auto"> Loading all the artifacts from the NexusAPI... this may take ~30 seconds, sorry!
@@ -62,7 +81,9 @@ const HomePage = () => {
                     </>
                 )}
             </div>
+            </section>
         </div>
+       
     )
 }
 

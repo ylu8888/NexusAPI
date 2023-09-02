@@ -49,14 +49,14 @@ const HomePage = () => {
                             {
                                 products.map((product, index) => {
                                     return (
-                                        <Product key={index} product={product}/>
+                                        <Product key={index} product={product} getProducts={getProducts}/>
                                     )
                                 })
                             }
                         </>
                     ) : ( 
                         <div>
-                            There are no products!
+                            There are no artifacts currently. Feel free to add some!
                         </div>
                     )}
                     </>

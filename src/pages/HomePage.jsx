@@ -31,16 +31,15 @@ const HomePage = () => {
 
     return (
         <div>
-     
-        
+ 
       <nav className="bg-gray-950 ">
         <div className="mx-auto p-8 pt-6 pb-6">
           <Link to="/"><h2 className="font-bold text-sky-500 text-center text-4xl font-serif">The Odyssey Museum</h2></Link>
         </div>
 
         <div className="p-1">
-        <h2 className="text-cyan-400 text-center text-sm font-bold">Powered by NexusAPI</h2> 
-        <p className="text-white text-center text-sm">All antiquities are acquired from NexusAPI and displayed for public viewing. Visitors may create, edit, or delete any artifacts and their descriptions </p>
+        <h2 className="text-cyan-500 text-center text-sm font-bold">Powered by NexusAPI</h2> 
+        <p className="text-white text-center text-sm ">All antiquities are acquired from NexusAPI and displayed for public viewing. Visitors may create, edit, or delete any artifacts and their descriptions </p>
         </div>
 
         <div className="text-center mx-auto pl-4 pr-4 pt-2">
@@ -84,8 +83,8 @@ const HomePage = () => {
             </section>
 
             <section id="about">
-                <div className="mt-16 mb-16 p-12 bg-gray-700 mx-auto text-white w-4/5">
-                <h2 className="text-cyan-400 text-center text-2xl font-bold pb-6">About</h2> 
+                <div className="mt-16 mb-16 p-12 bg-gray-800 mx-auto text-white w-4/5">
+                <h2 className="text-sky-500 text-center text-2xl font-bold pb-7">About</h2> 
                 <p className='text-center'>Welcome to the Odyssey Museum, a virtual treasure trove of human history and culture. Step into a world where the echoes of ancient and modern civilizations resonate through time. 
 
 At the Odyssey, we offer a diverse collection of relics, sculptures, and archaeological finds from civilizations spanning the globe. From the weaponry of the ancient Greeks to the intricate craftsmanship of the Mayans.

@@ -7,13 +7,13 @@ const App = () => {
   return (
     <div>
       <nav className="bg-gray-950">
-        <div className="container mx-auto p-2">
-          <Link to="/"><h2 className="text-white text-2xl font-bold">The Odyssey Museum</h2></Link>
+        <div className="container p-6">
+          <Link to="/"><h2 className="text-white text-4xl font-bold">The Odyssey Museum</h2></Link>
         </div>
 
       </nav>
 
-      <div className="">
+      <div className="mx-3">
         <Routes>
           <Route index element={<HomePage/>}></Route>
           <Route path="/create" element={<CreatePage/>}></Route>

@@ -39,7 +39,7 @@ const HomePage = () => {
 
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-5">
                 {isLoading ? ( //first check if products are loading
-                    <div className="text-white text-3xl mx-auto"> Loading the artifacts... 
+                    <div className="text-white text-4x1 mx-auto"> Loading all the artifacts from the NexusAPI... this may take ~30 seconds, sorry!
                         </div> 
                 ) : (
                     <>

@@ -35,15 +35,15 @@ const HomePage = () => {
         
       <nav className="bg-gray-950 ">
         <div className="mx-auto p-8 pt-6 pb-6">
-          <Link to="/"><h2 className="font-bold text-cyan-400 text-center text-4xl font-serif">The Odyssey Museum</h2></Link>
+          <Link to="/"><h2 className="font-bold text-sky-500 text-center text-4xl font-serif">The Odyssey Museum</h2></Link>
         </div>
 
         <div className="p-1">
-        <h2 className="text-sky-400 text-center text-sm font-bold">Powered by NexusAPI</h2> 
+        <h2 className="text-cyan-400 text-center text-sm font-bold">Powered by NexusAPI</h2> 
         <p className="text-white text-center text-sm">All antiquities are acquired from NexusAPI and displayed for public viewing. Visitors may create, edit, or delete any artifacts and their descriptions </p>
         </div>
 
-        <div className="text-center mx-auto pl-14 pr-14 pt-2">
+        <div className="text-center mx-auto pl-4 pr-4 pt-2">
         <img src="https://www.metmuseum.org/-/media/images/about-the-met/collection-areas/greek-and-roman/greek_roman_marquee_2320x940.jpg?sc_lang=en&h=940&w=2320&la=en&hash=72F4B1C70CA737CE59B046E6737D2DA9" alt="odymuseum" />
         </div>
 
@@ -55,7 +55,7 @@ const HomePage = () => {
                 </Link>
             </div>
 
-        <section>
+        <section id="artifacts">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-5">
                 {isLoading ? ( //first check if products are loading
                     <div className="text-white text-4x1 mx-auto"> Loading all the artifacts from the NexusAPI... this may take ~30 seconds, sorry!
@@ -82,6 +82,33 @@ const HomePage = () => {
                 )}
             </div>
             </section>
+
+            <section id="about">
+                <div className="mt-16 mb-16 p-12 bg-gray-700 mx-auto text-white w-4/5">
+                <h2 className="text-cyan-400 text-center text-2xl font-bold pb-6">About</h2> 
+                <p className='text-center'>Welcome to the Odyssey Museum, a virtual treasure trove of human history and culture. Step into a world where the echoes of ancient and modern civilizations resonate through time. 
+
+At the Odyssey, we offer a diverse collection of relics, sculptures, and archaeological finds from civilizations spanning the globe. From the weaponry of the ancient Greeks to the intricate craftsmanship of the Mayans.
+
+Our mission is to bridge the gap between the modern world and the distant past, allowing you to explore human history, culture, and heritage. Immerse yourself in the beauty of ancient artifacts and gain a deeper understanding of the people who came before us.
+
+Whether you're a history enthusiast, a student of archaeology, or simply curious about the wonders of the past, The Odyssey Museum offers a captivating and educational experience for all.
+                </p>
+
+                <br></br>
+
+                <p className='text-center'> The Odyssey Museum began collecting antiquities in 2023 and built an important collection concentrating on ancient artifacts as well as modern. All artifacts are displayed online and visitors have the ability to add their own artifacts, or edit and delete existing ones. The Museum retrieves artifact data and executes CRUD Operations from the NexusAPI. </p>
+
+                <br></br>
+
+                <p className='text-center'>© 2023 Thanks for checking out the Odyssey Museum!</p>
+                <p className='text-center'>Contact: yanglu91603@gmail.com</p>
+
+                </div>
+
+            </section>
+            
+
         </div>
        
     )

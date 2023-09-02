@@ -16,8 +16,8 @@ const App = () => {
       <div className="container w-3/5 mx-auto flex justify-between items-center h-10">
        
           <Link to="/"><h2 className="text-white text-sm ">Home</h2></Link>
-          <Link to="/"><h2 className="text-white text-sm ">About</h2></Link>
-          <Link to="/"><h2 className="text-white text-sm ">Artifacts</h2></Link>
+          <Link to="./HomePage.jsx#about"><h2 className="text-white text-sm ">About</h2></Link>
+          <Link to="./HomePage.jsx#artifacts"><h2 className="text-white text-sm ">Artifacts</h2></Link>
           <Link to="/create"><h2 className="text-white text-sm ">Contribute</h2></Link>
 
       </div>

@@ -12,11 +12,15 @@ const App = () => {
         </div>
 
       </nav>
-      <Routes>
-        <Route index element={<HomePage/>}></Route>
-        <Route path="/create" element={<CreatePage/>}></Route>
-        <Route path="/edit" element={<EditPage/>}></Route>
-      </Routes>
+
+      <div className="">
+        <Routes>
+          <Route index element={<HomePage/>}></Route>
+          <Route path="/create" element={<CreatePage/>}></Route>
+          <Route path="/edit" element={<EditPage/>}></Route>
+        </Routes>
+      </div>
+    
     </div>
   );
 }

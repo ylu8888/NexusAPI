@@ -16,7 +16,7 @@ const App = () => {
       <div className="text-white container w-3/5 mx-auto flex justify-between items-center h-10">
        
           <Link to="/"><h2 className="text-white text-sm ">Home</h2></Link>
-          <a href="https://odysseymuseum.netlify.app/#about">About</a> 
+          <a href="/https://odysseymuseum.netlify.app/#about">About</a> 
           <Link to="/create"><h2 className="text-white text-sm ">Contribute</h2></Link>
           <a href="mailto:yanglu91603@gmail.com"><h2 className="text-white text-sm">Contact</h2></a>
           

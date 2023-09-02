@@ -10,7 +10,7 @@ const Product = ({product, getProducts}) => {
             title: 'Are you sure you want to delete this artifact?',
             icon: 'warning',
             showCancelButton: true,
-            confirmButtonColor: 'blue',
+            confirmButtonColor: 'lightgreen',
             cancelButtonColor: '#d33',
             confirmButtonText: 'Delete'
         })

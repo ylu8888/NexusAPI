@@ -48,7 +48,7 @@ const HomePage = () => {
 
       </nav>
 
-            <div>
+            <div className="text-center">
                 <Link to="/create" className="inline-block mt-4 shadow-md bg-gray-700 text-white rounded-sm px-4 py-2 font-bold hover:bg-gray-600 hover:cursor-pointer">
                     Add Artifact
                 </Link>
@@ -57,7 +57,8 @@ const HomePage = () => {
         <section id="artifacts">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-5">
                 {isLoading ? ( //first check if products are loading
-                    <div className="text-white text-4x1 mx-auto"> Loading all the artifacts from the NexusAPI... this may take ~30 seconds, sorry!
+                    <div className="text-white text-4x1 mx-auto text-center"> 
+                        <h1 className="text-center mx-auto font-bold">Loading all the artifacts from the NexusAPI!</h1>
                         </div> 
                 ) : (
                     <>

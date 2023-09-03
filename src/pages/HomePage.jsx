@@ -49,7 +49,7 @@ const HomePage = () => {
       </nav>
 
             <div className="text-center">
-                <Link to="/create" className="inline-block mt-4 shadow-md bg-gray-700 text-white rounded-sm px-4 py-2 font-bold hover:bg-gray-600 hover:cursor-pointer">
+                <Link to="/create" className="inline-block mt-4 shadow-md bg-gray-500 text-white rounded-2xl px-8 py-4 font-bold hover:bg-gray-600 hover:cursor-pointer">
                     Add Artifact
                 </Link>
             </div>

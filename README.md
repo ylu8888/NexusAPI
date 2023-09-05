@@ -22,19 +22,19 @@ The purpose of this project is to learn and practice concepts related to:
 
 ## **Website Look:**
 
-![image](https://github.com/ylu8888/NexusAPI/assets/123523291/add568c1-594f-494b-a6ad-52b94b832b36)
+![image](https://github.com/ylu8888/NexusAPI/assets/123523291/90a8990a-9656-4c4b-b7c6-fa5db157a6f7)
 
-![image](https://github.com/ylu8888/NexusAPI/assets/123523291/34046aff-e5d8-404b-8da6-c64be6d65736)
+![image](https://github.com/ylu8888/NexusAPI/assets/123523291/e8167a14-8393-4570-a049-a409058357a4)
 
-![image](https://github.com/ylu8888/NexusAPI/assets/123523291/7b0f1488-590f-4bee-aacd-bf91e51f6ff7)
+![image](https://github.com/ylu8888/NexusAPI/assets/123523291/d9090994-d0cf-4fc4-aae4-f2ddf4327542)
 
 ## **Application Architecture:**
 
-![image](https://github.com/ylu8888/NexusAPI/assets/123523291/32e2dc74-2f8d-42e8-860a-6c413c21fd4a)
+![image](https://github.com/ylu8888/NexusAPI/assets/123523291/f72b4739-4a5b-4191-93b0-8e7951572f7c)
 
 ## **Sample Endpoints using Postman:**
 
-![image](https://github.com/ylu8888/NexusAPI/assets/123523291/4e972360-b972-4e25-aeb8-904b307b2fe0)
+![image](https://github.com/ylu8888/NexusAPI/assets/123523291/c5617b9a-347a-4506-92df-9640e3dc42f6)
 
 ## **API Endpoints (CRUD):**
 

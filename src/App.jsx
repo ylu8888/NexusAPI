@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
 
-    <nav className="bg-gray-900 ">
+    <nav className="bg-neutral-900 ">
 
     
       <div className="text-white container w-3/5 mx-auto flex justify-between items-center h-10">

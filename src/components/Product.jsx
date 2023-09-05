@@ -35,8 +35,8 @@ const Product = ({product, getProducts}) => {
                 <div className="text-sm text-white">Year: {product.date}</div>
 
                 <div className="mt-2 flex gap-4">
-                <Link to={`/edit/${product._id}`} className="inline-block w-full text-center shadow-md text-sm bg-gray-950 text-white rounded-sm px-4 py-1 font-bold hover:bg-gray-600 hover:cursor-pointer"> Edit</Link>
-                <button onClick={()=>deleteProduct(product._id)}className="inline-block w-full text-center shadow-md text-sm bg-gray-950 text-white rounded-sm px-4 py-1 font-bold hover:bg-gray-600 hover:cursor-pointer"> Delete</button>
+                <Link to={`/edit/${product._id}`} className="inline-block w-full text-center shadow-md text-sm bg-neutral-950 text-white rounded-sm px-4 py-1 font-bold hover:bg-gray-600 hover:cursor-pointer"> Edit</Link>
+                <button onClick={()=>deleteProduct(product._id)}className="inline-block w-full text-center shadow-md text-sm bg-neutral-950 text-white rounded-sm px-4 py-1 font-bold hover:bg-gray-600 hover:cursor-pointer"> Delete</button>
             </div>
 
             </div>

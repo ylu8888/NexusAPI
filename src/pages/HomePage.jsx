@@ -24,7 +24,7 @@ const HomePage = () => {
         }
     }
 
-    //useEffect is called when application is first loaded and getProducts method is called
+    //useEffect is called when application is first loaded -> then getProducts method is called
     useEffect(() => {
         getProducts();
     }, [])

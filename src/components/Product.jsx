@@ -27,7 +27,7 @@ const Product = ({product, getProducts}) => {
     }
 
     return (
-        <div className="bg-gray-800 rounded shadow-lg overflow-hidden">
+        <div className="bg-zinc-800 rounded shadow-lg overflow-hidden">
             <img src={product.image} className="w-full h-80 object-cover" />
             <div className="px-4 pt-2 pb-4">
                 <h2 className="text font-semibold text-white">{product.name}</h2>

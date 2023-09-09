@@ -24,9 +24,9 @@ The purpose of this project is to learn and practice concepts related to:
 
 ![image](https://github.com/ylu8888/NexusAPI/assets/123523291/c4573ff0-a411-495d-849c-babd0492290b)
 
-![image](https://github.com/ylu8888/NexusAPI/assets/123523291/cdcd8351-eedc-43fd-8cbe-6d5fa53baada)
+![image](https://github.com/ylu8888/NexusAPI/assets/123523291/090c9581-26f3-4448-9728-ecbb0370617f)
 
-![image](https://github.com/ylu8888/NexusAPI/assets/123523291/c668dd82-0b2b-4ca4-b5b1-0711e1cc2b07)
+![image](https://github.com/ylu8888/NexusAPI/assets/123523291/fd3d6fc7-d35e-4e91-9df1-8be0a573e307)
 
 ## **Application Architecture:**
 

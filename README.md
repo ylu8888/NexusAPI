@@ -2,8 +2,6 @@
 
 ## Website Link: https://odysseymuseum.netlify.app/
 
-**Full Stack Personal Project**
-
 **REST API for an online antiquities museum that displays ancient and modern artifacts. Visitors may view, add, edit, delete artifacts and their descriptions.**
 
 The purpose of this project is to learn and practice concepts related to:

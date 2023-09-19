@@ -8,6 +8,8 @@ The purpose of this project is to learn and practice concepts related to:
 
 * Building a REST API
 
+* Full Stack Web Development
+
 * MVC Architecture Pattern
   
 * Working with Node.js, Express, & React

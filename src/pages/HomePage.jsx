@@ -44,7 +44,7 @@ const HomePage = () => {
         </div>
 
         <div className="text-center mx-auto pl-4 pr-4 pt-2">
-        <img src="./Greek_Roman_Marquee_2320x940.jpg" alt="ody" />
+        <img src="./ody.jpg" alt="ody" />
         </div>
 
       </nav>

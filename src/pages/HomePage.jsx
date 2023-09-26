@@ -29,6 +29,14 @@ const HomePage = () => {
         getProducts();
     }, [])
 
+    useEffect(() => {
+        // When the component mounts, scroll to the 'about' section
+        const aboutSection = document.getElementById('about');
+        if (aboutSection) {
+          aboutSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, []);
+
     return (
         <div>
  
@@ -43,7 +51,7 @@ const HomePage = () => {
         </div>
 
         <div className="text-center mx-auto pl-4 pr-4 pt-2">
-        <img src="https://www.metmuseum.org/-/media/images/about-the-met/collection-areas/greek-and-roman/greek_roman_marquee_2320x940.jpg?sc_lang=en&h=940&w=2320&la=en&hash=72F4B1C70CA737CE59B046E6737D2DA9" alt="odymuseum" />
+        <img src="odymuseum.jpg" alt="odymuseum" />
         </div>
 
       </nav>
@@ -88,12 +96,12 @@ const HomePage = () => {
                 <h2 className="text-orange-500 text-center text-2xl font-bold pb-7">About</h2> 
                 <p className='text-center'>Welcome to the Odyssey Museum, a virtual treasure trove of human history and culture. Step into a world where the echoes of ancient and modern civilizations resonate through time. 
 
-At the Odyssey, we offer a diverse collection of relics, sculptures, and archaeological finds from civilizations spanning the globe. From the weaponry of the ancient Greeks to the intricate craftsmanship of the Mayans.
+                At the Odyssey, we offer a diverse collection of relics, sculptures, and archaeological finds from civilizations spanning the globe. From the weaponry of the ancient Greeks to the intricate craftsmanship of the Mayans.
 
-Our mission is to bridge the gap between the modern world and the distant past, allowing you to explore human history, culture, and heritage. Immerse yourself in the beauty of ancient artifacts and gain a deeper understanding of the people who came before us.
+                Our mission is to bridge the gap between the modern world and the distant past, allowing you to explore human history, culture, and heritage. Immerse yourself in the beauty of ancient artifacts and gain a deeper understanding of the people who came before us.
 
-Whether you're a history enthusiast, a student of archaeology, or simply curious about the wonders of the past, The Odyssey Museum offers a captivating and educational experience for all.
-                </p>
+                Whether you're a history enthusiast, a student of archaeology, or simply curious about the wonders of the past, The Odyssey Museum offers a captivating and educational experience for all.
+                            </p>
 
                 <br></br>
 

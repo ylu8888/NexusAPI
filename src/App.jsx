@@ -4,7 +4,7 @@ import CreatePage from "./pages/CreatePage"
 import EditPage from "./pages/EditPage"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import odymuseum from './odymuseum.jpg'
+
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
       <div className="text-white container w-3/5 mx-auto flex justify-between items-center h-10 ">
        
           <Link to="/"><h2 className="text-white text-sm hover:text-orange-400 items-center rounded-2xl font-mono">Home</h2></Link>
-          <a href="/https://odysseymuseum.netlify.app/#about" className="text-sm rounded-2xl hover:text-orange-400 font-mono">About</a> 
+          <Link to="/about" className="text-sm rounded-2xl hover:text-orange-400 font-mono">About</Link> 
           <Link to="/create"><h2 className="text-white text-sm rounded-2xl hover:text-orange-400 font-mono">Contribute</h2></Link>
           <a href="mailto:yanglu91603@gmail.com"><h2 className="text-white text-sm rounded-2xl hover:text-orange-400 font-mono">Contact</h2></a>
           
@@ -30,7 +30,7 @@ const App = () => {
           <Route index element={<HomePage/>}></Route>
           <Route path="/create" element={<CreatePage/>}></Route>
           <Route path="/edit/:id" element={<EditPage/>}></Route>
-          
+          <Route path="/about" element={<HomePage/>}></Route>
          
         </Routes>
       </div>

@@ -29,13 +29,6 @@ const HomePage = () => {
         getProducts();
     }, [])
 
-    useEffect(() => {
-        // When the component mounts, scroll to the 'about' section
-        const aboutSection = document.getElementById('about');
-        if (aboutSection) {
-          aboutSection.scrollIntoView({ behavior: 'smooth' });
-        }
-      }, []);
 
     return (
         <div>
